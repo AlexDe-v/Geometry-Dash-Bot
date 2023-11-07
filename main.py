@@ -18,7 +18,6 @@ import gd
 intents = discord.Intents.all()
 client = discord.Bot(command_prefix='!', intents=intents)
 dash = gd.Client()
-real_key = b"C8zw_hOJrIeeraPS4O7QhLO_S-P1EkeSrIShqtJpOZQ="
 servers = [989178425870782514]
 token= os.getenv("DEV_TOKEN")
 
